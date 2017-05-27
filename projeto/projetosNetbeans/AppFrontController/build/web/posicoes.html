@@ -1,0 +1,23 @@
+<!DOCTYPE html> <html>
+    <head>
+        <title>Posicoes</title>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css"> <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/ol.css" type="text/css"> <script src="js/ol.js"></script>
+        <link rel="stylesheet" href="css/popup.css">
+        <style>
+            #MeuMapa{ width:100%;
+                      height:800px; }
+            </style> </head>
+        <body onload="init()">
+            Login do usuario: <input type="text" id="loginUsuario"/> <button id="btnCarregaPosicoes">Carrega Posicoes</button>
+        <div class="container-fluid"> <div class="row-fluid">
+                <div class="span12">
+                    <div id="MeuMapa" class="map"></div> <div id="popup" class="ol-popup">
+                        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                        <div id="popup-content"></div> </div>
+                </div> </div>
+        </div>
+        <script src="js/posicoes.js"></script> </body>
+
+</html>
